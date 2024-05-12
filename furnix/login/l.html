@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ls.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+    <title>Login and Sign Up</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <form id="login-form" action="login.php" method="post">
+            <!-- Login form fields go here -->
+            <h1> User login </h1>
+            <input type="text" placeholder="Email" name="email"><br>
+            <input type="password" placeholder="Password" name="password"><br>
+            <button type="submit">Login</button>
+            <p>Don't have an account? <a href="" id="signup-link">Sign Up</a></p>
+        </form>
+
+        <form id="signup-form" action="signup.php" method="post">
+            <!-- Registration form fields go here -->
+            <h1>User signup </h1>
+            <input type="text" placeholder="Username" name="username"><br>
+            <input type="text" placeholder="Email" name="email"><br>
+            <input type="password" placeholder="Password" name="password"><br>
+            <button type="submit">Sign Up</button>
+            <p>Already have an account? <a href="#" id="login-link">Login</a></p>
+        </form>
+    </div>
+
+    <script src="ls.js"></script>
+</body>
+
+</html>
+

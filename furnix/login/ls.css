@@ -1,0 +1,48 @@
+
+body
+{
+    font-family: 'Dela Gothic One', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
+    box-sizing: border-box;
+    
+}
+.container{
+    padding: 20px;
+    border: 0.1px solid rgb(26, 26, 26);
+    border-radius: 10px;
+}
+
+/* Style the forms */
+form {
+    display: none;
+    text-align: left;
+    
+    
+}
+
+/* Style the active form */
+form.active {
+    display:contents;
+}
+input{
+    padding-left:10px ;
+margin-bottom: 10px;
+height: 30px;
+width: 200px;
+border:  rgb(71, 77, 71);
+border-radius: 5px;
+;
+}
+
+button{
+background-color: rgb(29, 29, 29);    
+border: 1px solid #161616;
+border-radius: 7px;
+height: 30px;
+width: 70px;
+}
+
+
